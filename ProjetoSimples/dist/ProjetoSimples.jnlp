@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProjetoSimples.jnlp">
+  <information>
+    <title>ProjetoSimples</title>
+    <vendor>igor</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProjetoSimples.jar" size="12191" download="eager" />
+    <jar href="lib/postgresql-9.2-1002.jdbc4.jar" size="579785" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProjetoSimples" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="projetosimples.Main"  name="ProjetoSimples" />
+  <update check="always"/>
+</jnlp>
